@@ -7,7 +7,6 @@ import type {} from '@deepseek-ai/dsh-agent'
 import type { SessionId, UserMessage } from '@deepseek-ai/dsh-session'
 import type {} from '@deepseek-ai/dsh-tools'
 import crypto from 'node:crypto'
-import { Context, Service } from '@deepseek-ai/cordis'
 
 declare module '@deepseek-ai/cordis' {
   interface Context {
